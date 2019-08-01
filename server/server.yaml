@@ -12,7 +12,7 @@ serverPort: 3000
 # The path to the root of the test repository directory. If you're using
 # backslash characters in double quotes, you'll need to escape them
 # (e.g. "C:\\opentest\\test-repo")
-testRepoDir: "test-repo"
+testRepoDir: "//opt//bitnami//apps/jenkins//jenkins_home//workspace//opentest_test//test-repo"
 
 # Actor groups can be used to limit the number of actors that can run in
 # parallel at any given time. This is useful when running against a cloud
