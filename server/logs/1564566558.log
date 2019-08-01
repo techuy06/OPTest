@@ -1,0 +1,2 @@
+{"name":"1564566558","hostname":"WINDOWS-KAF5MKC","pid":684,"level":20,"msg":"Sync server version: 1.1.2 2019-07-21 12:11:04 -0500 c76f9953d4f6aea1ac358e22f56d826d46fd74f3","time":"2019-07-31T09:49:17.918Z","v":0}
+{"name":"1564566558","hostname":"WINDOWS-KAF5MKC","pid":684,"level":50,"msg":"{\"name\":\"no-matching-tests\"}","time":"2019-07-31T09:49:17.918Z","v":0}

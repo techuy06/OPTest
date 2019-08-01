@@ -1,0 +1,5 @@
+description: Login Test
+sessionLabel: Login Test
+tests:
+  - name: todoist login.yaml
+    path: .
