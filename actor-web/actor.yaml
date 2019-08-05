@@ -28,7 +28,7 @@ selenium:
     chromeDriverExePath: /usr/bin/chromedriver
     chromeDriverExeArgs: [--start-maximized, --ignore-certificate-errors]
     edgeDriverExePath:
-    firefoxDriverExePath: C:/Selenium/geckodriver.exe
+    firefoxDriverExePath: /usr/bin/geckodriver.exe
     # firefoxDriverExeArgs: []
     ieDriverExePath:
     # ieDriverExeArgs: []
