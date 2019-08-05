@@ -25,7 +25,7 @@ selenium:
         browserName: chrome
         chromeOptions:
             args: [ --start-maximized ]
-    chromeDriverExePath: C:/Selenium/chromedriver.exe
+    chromeDriverExePath: /usr/bin/chromedriver
     chromeDriverExeArgs: [--start-maximized, --ignore-certificate-errors]
     edgeDriverExePath:
     firefoxDriverExePath: C:/Selenium/geckodriver.exe
