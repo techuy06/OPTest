@@ -24,7 +24,7 @@ selenium:
     desiredCapabilities:
         browserName: chrome
         chromeOptions:
-            args: [ "--start-maximized", "--headless","--disable-gpu","--window-size=800,600","--no-sandbox","--disable-dev-shm-usage" ]
+            args: [ "--headless","--disable-gpu","--window-size=800,600","--no-sandbox","--disable-dev-shm-usage" ]
     chromeDriverExePath: /usr/bin/chromedriver
     chromeDriverExeArgs: [--start-maximized, --ignore-certificate-errors]
     edgeDriverExePath:
