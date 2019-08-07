@@ -1,4 +1,8 @@
 description: Todolist login
+dataSet: [
+    {browserWidth: 1024, browserHeight: 768},
+    {browserWidth: 800, browserHeight: 600}
+]
 actors:
   - actor: WEB
     segments:
