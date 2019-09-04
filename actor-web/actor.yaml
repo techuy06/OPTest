@@ -26,7 +26,7 @@ selenium:
         chromeOptions:
             args: [ "--headless","--disable-gpu","--window-size=800,600","--no-sandbox","--disable-dev-shm-usage" ]
     chromeDriverExePath: /usr/bin/chromedriver
-    chromeDriverExeArgs: [--start-maximized, --ignore-certificate-errors]
+    chromeDriverExeArgs: [headless]
     edgeDriverExePath:
     firefoxDriverExePath: /usr/bin/geckodriver.exe
     # firefoxDriverExeArgs: []
