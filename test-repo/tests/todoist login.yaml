@@ -8,13 +8,6 @@ actors:
     segments:
       - segment: 1
         actions:
-          - description: Set browser position and size
-            action: org.getopentest.selenium.SetBrowserAspect
-            args:
-              positionX: 10
-              positionY: 10
-              width: 100
-              height: 100
           - macro: Login
             args:
               username: $data("config").username
