@@ -24,7 +24,7 @@ selenium:
     desiredCapabilities:
         browserName: chrome
         chromeOptions:
-            args: [ "--headless","--disable-gpu","--no-sandbox", "disable-infobars","--disable-dev-shm-usage"]
+            args: [ "--headless","--disable-gpu","--no-sandbox", "disable-infobars","--disable-dev-shm-usage","window-size=1920x3000"]
     chromeDriverExePath: /usr/bin/chromedriver
     chromeDriverExeArgs:
     edgeDriverExePath:
