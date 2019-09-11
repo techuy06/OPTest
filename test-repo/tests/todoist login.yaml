@@ -8,10 +8,15 @@ actors:
     segments:
       - segment: 1
         actions:
-          - macro: Login
+          - description: Load the GitHub homepage
+            action: org.getopentest.selenium.NavigateTo
             args:
-              username: $data("config").username
-              password: $data("config").password
+              url: https://github.com/
+
+          # - macro: Login
+          #   args:
+          #     username: $data("config").username
+          #     password: $data("config").password
 
           # - description: Click on Today
           #   action: org.getopentest.selenium.Click
