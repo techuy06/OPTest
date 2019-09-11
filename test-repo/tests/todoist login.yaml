@@ -11,7 +11,7 @@ actors:
           - description: Load the GitHub homepage
             action: org.getopentest.selenium.NavigateTo
             args:
-              url: https://github.com/
+              url: https://google.com/
 
           # - macro: Login
           #   args:
