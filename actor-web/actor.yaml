@@ -24,8 +24,8 @@ selenium:
     desiredCapabilities:
         browserName: chrome
         chromeOptions:
-            args: [ "--ignore-certificate-errors","test-type","start-maximized","disable-infobars","--disable-extensions","--headless","--disable-gpu", "disable-infobars","--disable-dev-shm-usage","window-size=1400,1400"]
-    chromeDriverExePath: /usr/bin/chromium
+            args: [ "--no-sandbox","--ignore-certificate-errors","test-type","start-maximized","disable-infobars","--disable-extensions","--headless","--disable-gpu", "disable-infobars","--disable-dev-shm-usage","window-size=1400,1400"]
+    chromeDriverExePath: /usr/bin/chromedriver
     chromeDriverExeArgs:
     edgeDriverExePath:
     firefoxDriverExePath: /usr/bin/geckodriver.exe
