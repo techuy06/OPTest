@@ -24,9 +24,9 @@ selenium:
     desiredCapabilities:
         browserName: chrome
         chromeOptions:
-            args: [ "--headless","--disable-gpu", "disable-infobars","--disable-dev-shm-usage","window-size=1400,1400"]
+            args: [ "start-maximized","disable-infobars","--disable-extensions","--headless","--disable-gpu", "disable-infobars","--disable-dev-shm-usage","window-size=1400,1400"]
     chromeDriverExePath: /usr/bin/chromedriver
-    chromeDriverExeArgs: [ headless ]
+    chromeDriverExeArgs:
     edgeDriverExePath:
     firefoxDriverExePath: /usr/bin/geckodriver.exe
     # firefoxDriverExeArgs: []
