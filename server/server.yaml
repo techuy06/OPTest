@@ -7,7 +7,7 @@ acquireActorsTimeoutSec: 1200
 noActivityTimeoutSec: 3600
 
 # The port the server listens on
-serverPort: 3000
+serverPort: 8080
 
 # The path to the root of the test repository directory. If you're using
 # backslash characters in double quotes, you'll need to escape them
