@@ -28,7 +28,7 @@ selenium:
     chromeDriverExePath: /usr/lib/chromium-browser/chromedriver
     chromeDriverExeArgs:
     edgeDriverExePath:
-    firefoxDriverExePath: /usr/bin/geckodriver
+    firefoxDriverExePath: /usr/local/bin/geckodriver
     firefoxDriverExeArgs: ["--no-sandbox","--headless","--disable-gpu","--disable-dev-shm-usage","disable-infobars"]
     ieDriverExePath:
     # ieDriverExeArgs: []
