@@ -1,7 +1,0 @@
-homepage:
-  loginMenu: { css: "a[href='/Users/showLogin']" }
-  firstFrame: { name: GB_frame }
-  secondFrame: { id: GB_frame }
-  emailInput: { id: email }
-  passwordInput: { id: password }
-  submitBtn: { css: "#login_form a.submit_btn" }

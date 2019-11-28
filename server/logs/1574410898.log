@@ -1,3 +1,0 @@
-{"name":"1574410898","hostname":"keentesting-VirtualBox","pid":4608,"level":20,"msg":"Sync server version: 1.1.4 2019-08-29 20:07:31 -0500 b66f5666d4ff411b239b3d82efe727fdbf241cf0","time":"2019-11-22T08:21:38.057Z","v":0}
-{"name":"1574410898","hostname":"keentesting-VirtualBox","pid":4608,"level":30,"msg":"Acquiring actors for session 1574410898: WEB","time":"2019-11-22T08:21:38.073Z","v":0}
-{"name":"1574410898","hostname":"keentesting-VirtualBox","pid":4608,"level":30,"msg":"Session 1574410898 with label \"Again 7\" started at 2019-11-22 08:21:38 UTC","time":"2019-11-22T08:21:38.087Z","v":0}
